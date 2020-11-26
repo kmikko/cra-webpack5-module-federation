@@ -1,9 +1,9 @@
 import React from "react";
-import "./Header.css";
+import styles from "./Header.module.scss";
 
 const Header: React.FC = () => (
-  <div className="block">
-    <header className="header">Main app</header>
+  <div className={styles.block}>
+    <header className={styles.header}>Main app</header>
   </div>
 );
 

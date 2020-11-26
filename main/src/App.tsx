@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 
 import Header from "./components/Header";
 const Header1 = React.lazy(() => import("app1/Header"));
