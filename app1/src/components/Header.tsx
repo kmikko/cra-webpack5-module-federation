@@ -3,7 +3,7 @@ import "./Header.css";
 
 const Header: React.FC = () => (
   <div className="block">
-    <header className="header">Main app</header>
+    <header className="header">App 1</header>
   </div>
 );
 
